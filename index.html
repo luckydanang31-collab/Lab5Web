@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 5 - JavaScript Dasar</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+        .error { color: red; }
+        .sukses { color: green; }
+    </style>
+</head>
+<body>
+
+    <h1>Praktikum JavaScript Dasar</h1>
+    <p id="pesan">Konten awal.</p>
+
+    <!-- Latihan 6 & Pertanyaan H.7: Form Validasi & Cek Genap/Ganjil -->
+    <section>
+        <h2>Latihan 6 & Validasi Form</h2>
+        <form id="formInput">
+            <div>
+                <label for="nama">Nama Mahasiswa:</label><br>
+                <input type="text" id="nama" placeholder="Masukkan nama">
+            </div>
+            <br>
+            <div>
+                <label for="bilangan">Masukkan Bilangan Bulat (0-100):</label><br>
+                <input type="number" id="bilangan" step="1">
+            </div>
+            <br>
+            <button type="button" onclick="cekValidasiDanBilangan()">Periksa Input & Bilangan</button>
+        </form>
+        <p id="hasilBilangan"></p>
+    </section>
+
+    <!-- Latihan 7: Ubah Warna Latar -->
+    <section>
+        <h2>Latihan 7: Mengubah Warna Latar</h2>
+        <button type="button" onclick="ubahWarnaLatar('lightgreen')">Latar Hijau</button>
+        <button type="button" onclick="ubahWarnaLatar('white')">Latar Putih</button>
+        <button type="button" onclick="ubahWarnaLatar('lightyellow')">Latar Kuning</button>
+    </section>
+
+    <!-- Latihan 8 & Eksperimen 10: Checkbox Menu Makanan -->
+    <section>
+        <h2>Latihan 8: Checkbox Menu Makanan</h2>
+        <h3>Daftar Menu Makanan</h3>
+        <label><input type="checkbox" class="menu" value="5000"> Ayam Goreng (Rp5.000)</label><br>
+        <label><input type="checkbox" class="menu" value="500"> Tempe (Rp500)</label><br>
+        <label><input type="checkbox" class="menu" value="2500"> Telur Dadar (Rp2.500)</label><br>
+        <!-- Eksperimen 10: Tambahan 2 menu -->
+        <label><input type="checkbox" class="menu" value="3000"> Es Teh Manis (Rp3.000)</label><br>
+        <label><input type="checkbox" class="menu" value="10000"> Nasi Goreng (Rp10.000)</label><br>
+        <p><strong>Total: Rp<span id="total">0</span></strong></p>
+    </section>
+
+    <!-- Mini Project: Kalkulator Nilai Mahasiswa -->
+    <section>
+        <h2>Mini Project: Kalkulator Nilai Mahasiswa</h2>
+        <div>
+            <label>Nilai Tugas (0-100): </label>
+            <input type="number" id="nilaiTugas" min="0" max="100"><br><br>
+            <label>Nilai UTS (0-100): </label>
+            <input type="number" id="nilaiUTS" min="0" max="100"><br><br>
+            <label>Nilai UAS (0-100): </label>
+            <input type="number" id="nilaiUAS" min="0" max="100"><br><br>
+            <button type="button" onclick="prosesHitungNilai()">Hitung Nilai Akhir</button>
+        </div>
+        <div id="hasilKalkulator" style="margin-top: 15px;"></div>
+    </section>
+
+    <!-- Eksperimen Mandiri: Sembunyikan / Tampilkan Elemen -->
+    <section>
+        <h2>Eksperimen Mandiri: Toggle Elemen</h2>
+        <button type="button" onclick="toggleElemen()">Sembunyikan/Tampilkan Teks di Bawah</button>
+        <p id="teksSembunyi">Teks ini bisa disembunyikan atau ditampilkan!</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
