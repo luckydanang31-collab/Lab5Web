@@ -1,5 +1,14 @@
+![Hasil Latihan 1](./assets/ss1.png)
+![Hasil Latihan 2](./assets/ss2.png)
+![Hasil Latihan 3](./assets/ss3.png)
+![Hasil Latihan 4](./assets/ss4.png)
+![Hasil Latihan 5](./assets/ss5.png)
+![Hasil Latihan 6](./assets/ss6.png)
+![Hasil Latihan 7](./assets/ss7.png)
+![Hasil Latihan 8](./assets/ss8.png)
 # Laporan Praktikum 5: JavaScript Dasar dan Manipulasi HTML
-
+**Nama:** Lucky Danang Aryeswara
+**NIM:** 312510482
 **Mata Kuliah:** Pemrograman Web  
 **Pertemuan:** 6  
 **Topik:** JavaScript Dasar & Manipulasi Elemen HTML  
@@ -104,3 +113,4 @@ function validasiForm(nama, nilai) {
 2. **Kalkulasi & Logika**: Operasi aritmetika, pengecekan genap/ganjil, dan penggunaan `switch-case`.
 3. **Manipulasi DOM & Event**: Mengubah warna background halaman dan menghitung total harga menu makanan via `checkbox`.
 4. **Mini Project**: Aplikasi *Kalkulator Nilai Mahasiswa* yang menghitung nilai akhir ($30\%$ Tugas $+ 30\%$ UTS $+ 40\%$ UAS), menentukan predikat huruf, serta status kelulusan secara dinamis.
+# Lab5Web
