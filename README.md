@@ -6,11 +6,10 @@
 ![Hasil Latihan 6](./assets/ss6.png)
 ![Hasil Latihan 7](./assets/ss7.png)
 ![Hasil Latihan 8](./assets/ss8.png)
-
 # Laporan Praktikum 5: JavaScript Dasar dan Manipulasi HTML
-**Nama:** Lucky Danang Aryeswara
-**NIM:** 312510482
-**Mata Kuliah:** Pemrograman Web  
+**Nama:** Lucky Danang Aryeswara  
+**NIM:** 312510482  
+**Mata Kuliah:** Pemrograman Web    
 **Pertemuan:** 6  
 **Topik:** JavaScript Dasar & Manipulasi Elemen HTML  
 
